@@ -1,4 +1,156 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-header{
+.navigator{
+    height: 60px;
+    width: 100%;
+    font-size: 13px;
+    margin-bottom: 150px;
+}
+
+.navigator ul {
+    padding: 0 10px;
+    float: right;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.navigator ul > li {
+    margin: 0 5px;
+}
+
+.navigator a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+.navigator a > img {
+    border-radius: 50%;
+}
+
+.Google_Apps{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fit{
+    width: 60%;
+    height: 60%;
+    display: grid;
+    grid: 20% 20% 20% / 20% 20% 20%;
+    gap: 20%;
     
 }
+
+.fillers{
+    background-color: #737373;
+}
+
+
+
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.main img{
+    width: 272px;
+    height: 92px;
+}
+
+.main .searchEngine{
+    margin: 30px 0;
+    width: 498px;
+    background-color: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.main .searchEngine input{
+    padding: 13px 0;
+    width: 80%;
+    height: 100%;
+    border: 1px solid transparent;
+    background: transparent;
+}
+
+.searchEngine span {
+    display: block;
+    width: 23px;
+    height: 23px;
+}
+.searchEngine .lens{
+    padding-right: 20px;
+}
+
+
+.buttons button{
+    background-color: #f8f9fa;
+    font-size: 14px;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.main footer p {
+    font-size: 13px;
+}
+.main footer a {
+    text-decoration: none;
+}
+
+
+
+.main_footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    border-top: 1px solid #c6c6c6;
+    color: rgba(0,0,0,0.5);
+    font-size: 14px;
+}
+
+.main_footer header{
+    padding: 10px 10px 10px 30px;
+}
+
+.main_footer nav{
+    border-top: 1px solid #c6c6c6;
+    padding: 10px 10px 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_footer ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.main_footer ul > li:nth-child(1){
+    margin: 0;
+}
+
+.main_footer ul > li{
+    margin: 0 10px;
+} 
